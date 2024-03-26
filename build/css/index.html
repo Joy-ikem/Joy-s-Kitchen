@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Joy's Kitchen</title>
+</head>
+<body>
+    <header class=" sticky top-0">
+        <div class="flex p-5 justify-between bg-slate-100">
+            <div>
+                <p class="text-2xl">Joy's Kitchen</p>
+            </div>
+            <div class="space-x-3 hidden lg:flex">
+                 <a href="#home">Home</a>
+                 <a href="#about">About</a>
+                 <a href="#offer">Offer</a>
+                 <a href="book-a-table">Book A Table</a>
+            </div>
+            <div class="sm:flex lg:hidden">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+        </div>
+    </header>
+    <section id="Home">
+        <div class="flex items-center justify-center h-[60vh] w-[100%] bg-[url('https://static1.squarespace.com/static/5b55b377b27e39707a59aed1/t/5f115eea142a3a798afbcaa1/1596275702435/BB-Biryani+03+%283+of+6%29.jpg?format=1500w')] bg-no-repeat bg-cover object-contain">
+            <div class="flex flex-col">
+                <div>
+                    <p class="text-3xl font-sans font-bold text-white lg:text-4xl lg:font-extrabold lg:text-black">tasteful natural food</p>
+                </div>
+                <div class="">
+                    <div class="flex border h-9 w-72  rounded-full bg-orange-200">
+                        <p class="text-2xl font-mono text-black pb-3 pl-4"><a href="#offer">check our Offer</a></p>
+                        <i class="fa fa-arrow-down font-light p-2"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="p-4  lg:grid grid-cols-3 gap-4 ">
+            <div class="max-h-[24rem] lg:h-[24rem] shadow-lg p-2">
+                <div class="h-40 md:h-56 ">
+                    <img class="h-full w-full" src="https://media.licdn.com/dms/image/D4E12AQFcaBUZM9bCVw/article-cover_image-shrink_720_1280/0/1676743524163?e=2147483647&v=beta&t=NYWbCCeJnnc2YEIifmxrP1JSB05Ari9fJKyz-awMBEg">
+                </div>
+                <p class=" flex justify-center items-center bg-black/40 text-white h-16 ">Breakfast</p>
+            </div>
+            <div class="max-h-[24rem] lg:h-[24rem] shadow-lg p-2">
+                <div class="h-40 md:h-56 ">
+                    <img class="h-full w-full " src="https://static1.squarespace.com/static/56e0193227d4bdb9da1a87dc/56f2d6de4c2f85f9090f6886/5e8c81cd14e7393e384f2b0c/1591135230259/Food-photographer-london-4633.JPG?format=1500w">
+                </div>
+                <p class="flex items-center justify-center h-16 text-white bg-black/40">Lunch</p>
+            </div>
+                <div class=" max-h-[24rem] shadow-lg p-2 lg:h-[24rem]">
+                    <div class="h-40 md:h-56 ">
+                        <img class="h-full w-full " src="https://assets-global.website-files.com/60414b21f1ffcdbb0d5ad688/61f86a487eb9e946faf231db_vnADEPHUbHJCNPa0VevQscaX3O97Dbn1UVfyQpZLgvdfgHccWTh_hmHaTABXo2sGJWlqvk9uJl7ma6_VmFGNZh0D457sUi7oXaLVCz3sivn0W3QxbWgX2Omz41toRTn05wnJPgCp.jpeg">
+                    </div>
+                    <p class="flex items-center justify-center h-16 text-white bg-black/40">Dinner</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
